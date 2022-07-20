@@ -1,0 +1,33 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        int valor = 0;
+        valor = suma(10, 20, 30);
+
+        System.out.println(valor);
+
+    }
+    public static int suma(int a, int b, int c) {
+        return a + b + c;
+    }
+}
+
+// EJERCICIO DE PUERTAS
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Puertas.Coche miCoche = new Puertas.Coche();
+        miCoche.Aumentar();
+        System.out.println(miCoche.puerta);
+    }
+}
+
+class Coche {
+    public int puerta = 3;
+    public void Aumentar(){
+        this.puerta++;
+    }
+}
