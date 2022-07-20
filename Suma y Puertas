@@ -19,15 +19,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Puertas.Coche miCoche = new Puertas.Coche();
+        Coche miCoche = new Coche();
         miCoche.Aumentar();
         System.out.println(miCoche.puerta);
     }
 }
 
-class Coche {
-    public int puerta = 3;
-    public void Aumentar(){
-        this.puerta++;
+    class Coche {
+        public int puerta = 3;
+        public void Aumentar(){
+            this.puerta++;
+        }
     }
-}
