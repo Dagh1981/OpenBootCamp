@@ -1,4 +1,4 @@
-public class Main {
+spublic class Main {
 
     public static void main(String[] args) {
 
@@ -15,7 +15,7 @@ public class Main {
 
 // EJERCICIO DE PUERTAS
 
-public class Main {
+public class Puertas {
 
     public static void main(String[] args) {
 
